@@ -5,4 +5,4 @@ O código desse produto é parte de um compilador para uma linguagem denominada 
 
 Um identificador válido contém apenas letras e dígitos. Deve obrigatoriamente ter tamanho entre 1 e 6 caracteres, iniciar com uma letra e, os demais caracteres podem ser apenas letras ou dígitos.
 
-O método principal desse produto é o ```public boolean validadeIdentifier(String cadeia){...}'''
+O método principal desse produto é o ```public boolean validadeIdentifier(String cadeia){...}```
