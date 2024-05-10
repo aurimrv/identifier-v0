@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestAllClasses
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 4, Skipped: 1, Time elapsed: 0.025 s <<< FAILURE! - in TestAllClasses
+testNull  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at identifier.TestValidateIdentifier.lambda$testNull$10(TestValidateIdentifier.java:66)
+
+particiaoInvalida_2  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at identifier.TestValidateIdentifier.lambda$particiaoInvalida_2$2(TestValidateIdentifier.java:32)
+
+nullReferenceTeste  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at identifier.TestValidateIdentifierAdHoc.nullReferenceTeste(TestValidateIdentifierAdHoc.java:22)
+
+primeiroTeste  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at identifier.TestValidateIdentifierAdHoc.primeiroTeste(TestValidateIdentifierAdHoc.java:15)
+
