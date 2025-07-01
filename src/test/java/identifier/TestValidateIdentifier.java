@@ -75,4 +75,10 @@ public class TestValidateIdentifier {
 			"CBSoft2019".substring(20);
 		});
 	}
+	
+	@Test
+	public void defaultConstructor() {
+		IdentifierMain im = new IdentifierMain();
+		assertNotNull(im);
+	}
 }

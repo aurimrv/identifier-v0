@@ -4,7 +4,6 @@ public class Identifier {
 	public boolean validateIdentifier(String s) {
 		char achar;
 		boolean valid_id = false;
-
 		if (s != null && s.length() > 0) {
 			achar = s.charAt(0);
 			valid_id = valid_s(achar);
@@ -20,31 +19,21 @@ public class Identifier {
 			}
 		}
 
-		if (valid_id && 
-				(s.length() >= 1) && 
-				(s.length() <= 6))
+		if (valid_id && (s.length() >= 1) && (s.length() <= 6))
 			return true;
 		else
 			return false;
 	}
 
 	public boolean valid_s(char ch) {
-		if (((ch >= 'A') && 
-				(ch < 'Z')) || 
-			((ch >= 'a') && 
-				(ch < 'z')))
+		if (((ch >= 'A') && (ch < 'Z')) || ((ch >= 'a') && (ch < 'z')))
 			return true;
 		else
 			return false;
 	}
 
 	public boolean valid_f(char ch) {
-		if (((ch >= 'A') && 
-				(ch <= 'Z')) || 
-			((ch >= 'a') && 
-				(ch <= 'z')) || 
-			((ch >= '0') && 
-				(ch <= '9')))
+		if (((ch >= 'A') && (ch <= 'Z')) || ((ch >= 'a') && (ch <= 'z')) || ((ch >= '0') && (ch <= '9')))
 			return true;
 		else
 			return false;
